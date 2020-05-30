@@ -1,0 +1,92 @@
+#header-nav{
+    background-color: gray;
+    width: 100%;
+    height: 5vw;
+    border: 3px solid black;
+    font-weight: bold;
+    font-style: normal;
+    padding-left: 30px;
+    color: black;
+
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.navbar-brand h2{
+    color: black;
+   font-weight: bold   
+}   
+
+
+
+.A{
+    background-color: gray;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-toggler{
+    position: relative;
+    float: right;
+} 
+
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  
+  
+
+
+
+
+
+  @media (min-width:768px) and (max-width:991px) {
+    .A{
+      width: 100%;
+      height: max-content;
+    }
+    .A p{
+      font-size: 2.9vw;
+    } 
+     
+  }
+
+  @media  (max-width:768px) {
+    .A{
+      width: 100%;
+      height: max-content;
+    }
+    .A p{
+      font-size: 2.9vw;
+    }
+    .navbar-brand h2{
+      font-size: 3.5vw;
+       margin-top: -2px;
+    }
+
+  }
+
+
+
+
