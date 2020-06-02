@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 #header-nav{
     background-color: gray;
     width: 100%;
@@ -15,7 +18,8 @@ h1{
 }
 .navbar-brand h2{
     color: black;
-   font-weight: bold   
+   font-weight: bold;
+   margin-top: -10px;
 }   
 
 
@@ -49,6 +53,7 @@ h1{
   }
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
+    background-color: blue;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
